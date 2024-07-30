@@ -30,6 +30,16 @@ This project presents a system that uses RabbitMQ to queue e-mail messages and s
 3. Execute the consumer code to send emails received from the queue.
 4. The project combines a simple email forwarding solution with RabbitMQ's queuing mechanism for efficient communication.
 
+Connect to the RabbitMQ interface at:
+
+http://localhost:15672
+
+Steps:
+
+Start the EmailQueue by selecting Debug -> Start New Instance.
+Navigate to Queues and Streams at http://localhost:15672 and refresh.
+Run the consumer to process messages and send emails.
+
 **To open and start RabbitMQ:**
 ```bash
 net start RabbitMQ
