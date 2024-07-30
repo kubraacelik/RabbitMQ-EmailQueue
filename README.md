@@ -2,6 +2,8 @@
 
 This project presents a system that uses RabbitMQ to queue e-mail messages and send e-mails from this queue. The project consists of two main components: a producer and a consumer.
 
+![Ekran görüntüsü 2024-07-30 142634](https://github.com/user-attachments/assets/3c731b97-b62d-437e-8b20-4d32e64075d5)
+
 ## Producer
 
 **Purpose:** Sends email messages to the RabbitMQ queue.
