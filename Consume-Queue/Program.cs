@@ -62,7 +62,7 @@ internal class Program
             Host = "smtp.office365.com",
             Port = 587,
             EnableSsl = true,
-            Credentials = new NetworkCredential("Nkubracelik@outlook.com", "kubracelik34")
+            Credentials = new NetworkCredential("outlook maili yer alacak", "outlook şifresi yer alacak")
         };
 
         var mailMessage = new MailMessage
